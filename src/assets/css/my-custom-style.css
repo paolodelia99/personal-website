@@ -1,0 +1,32 @@
+/*Skills section*/
+.items-container{
+
+}
+
+.skill-wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.skill-title-container{
+
+}
+
+.skills-container{
+    width: 100%;
+    display: flex!important;
+    flex-direction: row!important;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.dev-icon{
+    font-size: 2rem;
+}
+
+.devicon-git-plain {
+    max-width: 100px;
+}
