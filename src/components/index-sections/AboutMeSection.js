@@ -8,25 +8,30 @@ import { Container, Row, Col } from "reactstrap";
 function AboutMeSection() {
   return (
     <>
-      <div className="section">
+      <div className="section" id='about-me-section'>
         <Container className="text-center">
-          <Row className="justify-content-md-center">
-            <Col sm="5" md="2" className='text-center'>
-              <p className="category">Circle Image</p>
-              <img
-                  alt="..."
-                  className="rounded-circle"
-                  src={require("../../assets/img/julie.jpg")}
-              ></img>
-            </Col>
-            <Col lg="8" sm="12">
+          <Row className='about-me-title-container'>
+            <Col>
               <h2 className="title">About me</h2>
-              <h5 className="description">
-                Hey! My name is Paolo and I'm a self-taught web developer. I'm currently a first year Computer Science student at Unimib.
-                I'm apsiring Machine learning Engineer.....(to be continued)
-              </h5>
             </Col>
           </Row>
+          <Container className='about-me-big-wrapper'>
+            <Row className="justify-content-md-center">
+              <Col className='text-center'>
+                <img
+                    alt="..."
+                    className="rounded-circle profile-img"
+                    src={require("../../assets/img/ProfilePhoto.jpg")}
+                />
+              </Col>
+              <Col>
+                <h5 className="description">
+                  Hey! My name is Paolo and I'm a self-taught web developer. I'm currently a first year Computer Science student at Unimib.
+                  I'm apsiring Machine learning Engineer.....(to be continued)
+                </h5>
+              </Col>
+            </Row>
+          </Container>
         </Container>
       </div>
     </>

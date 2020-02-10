@@ -1,20 +1,37 @@
-/*Skills section*/
+/*ABOUT ME SECTION*/
+.about-me-big-wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-img{
+    width: 200px;
+    height: auto;
+}
+
+.about-me-title-container{
+    margin-bottom: 20px;
+}
+
+/*SKILLS SECTION*/
 .items-container{
 
 }
 
 .skill-wrapper{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-
+    margin: 15px 0;
+    padding: 10px;
 }
 
 .skill-title-container{
 
 }
 
-.skills-container{
+.skills-icon-container{
+    margin: 10px 5px;
     width: 100%;
     display: flex!important;
     flex-direction: row!important;
@@ -23,10 +40,47 @@
     justify-content: space-evenly;
 }
 
-.dev-icon{
-    font-size: 2rem;
+.dev-icon-custom-style{
+    font-size: 100px;
+}
+.tools-container{
+    display: flex!important;
+    flex-direction: row!important;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
-.devicon-git-plain {
-    max-width: 100px;
+.tool-item{
+    flex-basis: 30%;
+    margin-top: 2px;
+    margin-bottom: 25px;
+    margin-left: 10px;
+}
+
+/*PORTFOLIO SECTION*/
+.projects-big-container{
+
+}
+
+.project-wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.img-left{
+
+}
+
+.img-right{
+
+}
+
+.project-image-container{
+
+}
+
+.project-description-container{
+
 }

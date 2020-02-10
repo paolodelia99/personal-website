@@ -60,9 +60,6 @@ function IndexNavbar() {
             >
               Paolo D'Elia
             </NavbarBrand>
-            <UncontrolledTooltip target="#navbar-brand">
-              Designed by Invision. Coded by Creative Tim
-            </UncontrolledTooltip>
             <button
               className="navbar-toggler navbar-toggler"
               onClick={() => {
@@ -89,7 +86,7 @@ function IndexNavbar() {
                   onClick={e => {
                     e.preventDefault();
                     document
-                      .getElementById("download-section")
+                      .getElementById("about-me-section")
                       .scrollIntoView();
                   }}
                 >
@@ -102,11 +99,11 @@ function IndexNavbar() {
                     onClick={e => {
                       e.preventDefault();
                       document
-                          .getElementById("download-section")
+                          .getElementById("skills-section")
                           .scrollIntoView();
                     }}
                 >
-                  <p>Passion</p>
+                  <p>Skills</p>
                 </NavLink>
               </NavItem>
               <NavItem>

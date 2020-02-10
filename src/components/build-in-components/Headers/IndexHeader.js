@@ -40,7 +40,7 @@ function IndexHeader() {
               src={require("../../../assets/img/Paypal-Logo-Transparent-PNG-1024x713.png")}
             ></img>
             <h1 className="h1-seo">Hi, I'm Paolo D'Elia</h1>
-            <h3>Junior Software Engineer and aspiring Machine Learning Engineer</h3>
+            <h3>Junior Software Engineer</h3>
           </div>
         </Container>
       </div>

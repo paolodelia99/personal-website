@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Index from './App';
+import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
 
@@ -15,7 +15,7 @@ import "./assets/css/my-custom-style.css"
 ReactDOM.render(<BrowserRouter>
     <Switch>
         <Switch>
-            <Route path="/index" render={props => <Index {...props} />} />
+            <Route path="/index" render={props => <App {...props} />} />
             <Redirect to="/index" />
             <Redirect from="/" to="/index" />
         </Switch>

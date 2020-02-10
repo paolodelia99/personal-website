@@ -26,7 +26,7 @@ import Examples from "./components/index-sections/Examples.js";
 import Download from "./components/index-sections/Download.js";
 import SkillsSection from "./components/index-sections/SkillsSection";
 
-function Index() {
+function App() {
   React.useEffect(() => {
     document.body.classList.add("index-page");
     document.body.classList.add("sidebar-collapse");
@@ -66,4 +66,4 @@ function Index() {
   );
 }
 
-export default Index;
+export default App;
