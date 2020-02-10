@@ -17,10 +17,24 @@ const PortfolioSection = () => {
                         </div>
                     </div>
                     <div className='project-wrapper img-right'>
+                        <div className='project-image-container'>
+                            <img
+                                src={require('../../assets/img/weather-app.png')}
+                            />
+                        </div>
+                        <div className='project-description-container'>
 
+                        </div>
                     </div>
                     <div className='project-wrapper img-left'>
+                        <div className='project-image-container'>
+                            <img
+                                src={require('../../assets/img/price-tracker-app.png')}
+                            />
+                        </div>
+                        <div className='project-description-container'>
 
+                        </div>
                     </div>
                 </Container>
             </div>
