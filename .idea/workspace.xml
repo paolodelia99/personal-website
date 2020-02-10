@@ -2,20 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29edf3d3-3754-41a0-9846-dd542ff48ce5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/img/ProfilePhoto.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/google-keep-project.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/mateial-ui-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/redux-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/index-sections/PortfolioSection.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/css/my-custom-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/my-custom-style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/build-in-components/Headers/IndexHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/build-in-components/Headers/IndexHeader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/build-in-components/Navbars/IndexNavbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/build-in-components/Navbars/IndexNavbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/index-sections/AboutMeSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/index-sections/AboutMeSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/build-in-components/Footers/DarkFooter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/build-in-components/Footers/DarkFooter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/index-sections/Download.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/index-sections/ContactMeSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/index-sections/PortfolioSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/index-sections/PortfolioSection.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/index-sections/SkillsSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/index-sections/SkillsSection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +53,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
     <property name="show.migrate.to.gradle.popup" value="false" />
+    <property name="ts.external.directory.path" value="F:\Program Files\Web Storm\WebStorm 2019.3.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -109,7 +105,8 @@
       <workItem from="1581281614417" duration="4763000" />
       <workItem from="1581321893598" duration="562000" />
       <workItem from="1581322896944" duration="2292000" />
-      <workItem from="1581325240317" duration="5462000" />
+      <workItem from="1581325240317" duration="6344000" />
+      <workItem from="1581368620464" duration="5119000" />
     </task>
     <servers />
   </component>

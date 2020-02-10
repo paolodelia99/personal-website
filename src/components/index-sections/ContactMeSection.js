@@ -2,48 +2,34 @@ import React from "react";
 
 // reactstrap components
 import { Button, Container, Row, Col, UncontrolledTooltip } from "reactstrap";
-
+import {IoIosPaperPlane} from 'react-icons/io'
 // core components
 
-function Download() {
+function ContactMeSection() {
   return (
     <>
       <div
         className="section section-download"
         data-background-color="black"
-        id="download-section"
+        id="contact-me-section"
       >
         <Container>
           <Row className="justify-content-md-center">
             <Col className="text-center" lg="8" md="12">
-              <h3 className="title">Do you love this Bootstrap 4 UI Kit?</h3>
+              <IoIosPaperPlane size='40px'/>
+              <h3 className="title">Get in touch!</h3>
               <h5 className="description">
-                Cause if you do, it can be yours for FREE. Hit the button below
-                to navigate to Creative Tim or Invision where you can find the
-                kit in HTML or Sketch/PSD format. Start a new project or give an
-                old Bootstrap project a new look!
+                Whether you have an idea for a project or just want to chat,
+                feel free to shoot me an email!
               </h5>
-            </Col>
-            <Col className="text-center" lg="8" md="12">
               <Button
-                className="btn-round mr-1"
-                color="info"
-                href="https://www.creative-tim.com/product/now-ui-kit-react?ref=nukr-index-page"
-                role="button"
-                size="lg"
+                  className="btn-round mr-1"
+                  color="info"
+                  href="#"
+                  role="button"
+                  size="lg"
               >
-                Download React
-              </Button>
-              <Button
-                className="btn-round"
-                color="primary"
-                href="https://www.invisionapp.com/now?ref=creativetim"
-                outline
-                role="button"
-                size="lg"
-                target="_blank"
-              >
-                Download PSD/Sketch
+                Send me an Email
               </Button>
             </Col>
           </Row>
@@ -146,4 +132,4 @@ function Download() {
   );
 }
 
-export default Download;
+export default ContactMeSection;

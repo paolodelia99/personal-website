@@ -162,7 +162,7 @@ const SkillsSection = () => {
                                             className="devicon-mongodb-plain-wordmark colored dev-icon-custom-style"
                                         ></i>
                                         <UncontrolledTooltip target='#mongo-db-icon'>
-                                            Chrome DevTools
+                                            Mongo Db
                                         </UncontrolledTooltip>
                                     </div>
                                     <div className='tool-item'>
@@ -172,6 +172,24 @@ const SkillsSection = () => {
                                         ></i>
                                         <UncontrolledTooltip target='#nodejs-icon'>
                                             Node Js
+                                        </UncontrolledTooltip>
+                                    </div>
+                                    <div className='tool-item'>
+                                        <img
+                                            id='html-icon'
+                                            src={require('../../assets/img/HTML_Logo.png')}
+                                        />
+                                        <UncontrolledTooltip target='#html-icon'>
+                                            HTML
+                                        </UncontrolledTooltip>
+                                    </div>
+                                    <div className='tool-item'>
+                                        <img
+                                            id='css-icon'
+                                            src={require('../../assets/img/css3-512.png')}
+                                        />
+                                        <UncontrolledTooltip target='#css-icon'>
+                                            Css
                                         </UncontrolledTooltip>
                                     </div>
                                 </div>
