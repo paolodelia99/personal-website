@@ -22,60 +22,31 @@ function ContactMeSection() {
                 Whether you have an idea for a project or just want to chat,
                 feel free to shoot me an email!
               </h5>
-              <Button
-                  className="btn-round mr-1"
-                  color="info"
-                  href="#"
-                  role="button"
-                  size="lg"
-              >
-                Send me an Email
-              </Button>
-            </Col>
-          </Row>
-          <br></br>
-          <br></br>
-          <br></br>
-          <Row className="text-center mt-5">
-            <Col className="ml-auto mr-auto" md="8">
-              <h2>Want more?</h2>
-              <h5 className="description">
-                We're going to launch{" "}
-                <a
-                  href="http://demos.creative-tim.com/now-ui-kit-pro-react/#/presentation?ref=nukr-index-page"
-                  onClick={e => e.preventDefault()}
+              <form action="mailto:paolo.delia99@gmail.com">
+                <Button
+                    className="btn-round mr-1"
+                    color="info"
+                    type='submit'
+                    role="button"
+                    size="lg"
                 >
-                  Now UI Kit PRO React
-                </a>
-                . It will have huge number of components, sections and example
-                pages so you can start your development with a badass Bootstrap
-                4 UI Kit.
-              </h5>
-            </Col>
-            <Col md="12">
-              <Button
-                className="btn-neutral btn-round"
-                color="default"
-                href="http://demos.creative-tim.com/now-ui-kit-pro-react/#/presentation?ref=nukr-index-page"
-                size="lg"
-                disabled
-              >
-                <i className="now-ui-icons arrows-1_share-66 mr-1"></i>
-                Upgrade to PRO
-              </Button>
+                  Send me an Email
+                </Button>
+              </form>
             </Col>
           </Row>
+          <br></br>
           <br></br>
           <br></br>
           <Row className="justify-content-md-center sharing-area text-center">
             <Col className="text-center" lg="8" md="12">
-              <h3>Thank you for supporting us!</h3>
+              <h3>Check out my social media</h3>
             </Col>
             <Col className="text-center" lg="8" md="12">
               <Button
                 className="btn-neutral btn-icon btn-round"
                 color="twitter"
-                href="https://www.twitter.com/creativetim?ref=creativetim"
+                href="https://twitter.com/Delia99Paolo"
                 id="tooltip86114138"
                 size="lg"
                 target="_blank"
@@ -83,25 +54,12 @@ function ContactMeSection() {
                 <i className="fab fa-twitter"></i>
               </Button>
               <UncontrolledTooltip delay={0} target="tooltip86114138">
-                Follow us
-              </UncontrolledTooltip>
-              <Button
-                className="btn-neutral btn-icon btn-round"
-                color="facebook"
-                href="https://www.facebook.com/creativetim?ref=creativetim"
-                id="tooltip735272548"
-                size="lg"
-                target="_blank"
-              >
-                <i className="fab fa-facebook-square"></i>
-              </Button>
-              <UncontrolledTooltip delay={0} target="tooltip735272548">
-                Like us
+                Follow me on Twitter
               </UncontrolledTooltip>
               <Button
                 className="btn-neutral btn-icon btn-round"
                 color="linkedin"
-                href="https://www.linkedin.com/company-beta/9430489/?ref=creativetim"
+                href="https://www.linkedin.com/in/paolo-d-elia/"
                 id="tooltip647117716"
                 size="lg"
                 target="_blank"
@@ -109,7 +67,7 @@ function ContactMeSection() {
                 <i className="fab fa-linkedin"></i>
               </Button>
               <UncontrolledTooltip delay={0} target="tooltip647117716">
-                Follow us
+                Connect with me on Linkedin
               </UncontrolledTooltip>
               <Button
                 className="btn-neutral btn-icon btn-round"
@@ -118,11 +76,24 @@ function ContactMeSection() {
                 id="tooltip331904895"
                 size="lg"
                 target="_blank"
+            >
+              <i className="fab fa-github"></i>
+            </Button>
+              <UncontrolledTooltip delay={0} target="tooltip331904895">
+                Check out my Github
+              </UncontrolledTooltip>
+              <Button
+                  className="btn-neutral btn-icon btn-round"
+                  color="github"
+                  href="https://github.com/creativetimofficial/now-ui-kit-react?ref=creativetim"
+                  id="tooltip331904895"
+                  size="lg"
+                  target="_blank"
               >
-                <i className="fab fa-github"></i>
+                <i className="fab fa-dev" title="paolodelia99's DEV Profile"></i>
               </Button>
               <UncontrolledTooltip delay={0} target="tooltip331904895">
-                Star on Github
+                Check out my Github
               </UncontrolledTooltip>
             </Col>
           </Row>

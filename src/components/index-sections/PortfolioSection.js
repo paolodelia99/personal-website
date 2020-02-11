@@ -13,6 +13,9 @@ const PortfolioSection = () => {
                 </Row>
                 <Container className="text-center projects-big-container">
                     <div className='project-wrapper img-left'>
+                        <div>
+                            <h3 className='title-small-viewport'>Google Keep clone</h3>
+                        </div>
                         <div className='project-image-container'>
                             <img
                                 className='img-fluid'
@@ -21,11 +24,13 @@ const PortfolioSection = () => {
                         </div>
                         <div className='project-description-container'>
                             <div>
-                                <h3 className='title'>Google Keep clone</h3>
+                                <h3 className='project-title'>Google Keep clone</h3>
                                 <h5 className="description">
-                                    Since I'm an organized guy and junior software engineer,
-                                    I thought, why don't build an productivity app that I use a lot?
-                                    So I did it!
+                                    <p className='brief-intro'>
+                                        Since I'm an organized guy and junior software engineer,
+                                        I thought, why don't build an productivity app that I use a lot?
+                                        So I did it!
+                                    </p>
                                     <br/>
                                     Here's a google keep clone ( at least it tries to replicate it),
                                     build with <b>node.js</b>, <b>express</b>, <b>mongodb</b>, <b>React</b> and <b>redux</b>.
@@ -53,14 +58,19 @@ const PortfolioSection = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='project-wrapper img-right'>
-                        <div className='project-description-container'>
+                    <div className='project-wrapper'>
+                        <div>
+                            <h3 className='title-small-viewport'>Weather App</h3>
+                        </div>
+                        <div className='project-description-container' id='weather-app-description'>
                             <div>
-                                <h3 className='title'>Weather App</h3>
+                                <h3 className='project-title'>Weather App</h3>
                                 <h5 className="description">
-                                    Are you wondering what the weather will be in the next few days?
-                                    Check it out with my react-meteo-app! Six-day weather forecast!
-                                    You can also save your favourite cities!
+                                    <p className='brief-intro'>
+                                        Are you wondering what the weather will be in the next few days?
+                                        Check it out with my react-meteo-app! Six-day weather forecast!
+                                        You can also save your favourite cities!
+                                    </p>
                                     <br/>
                                     Build with <b>React</b>, <b>Redux</b> and <b>Open Weather API</b> for getting the weather!
                                 </h5>
@@ -70,7 +80,7 @@ const PortfolioSection = () => {
                                     <i
                                         className="devicon-github-plain colored git-hub-link-icon"
                                         id='github-code-icon'
-                                        ></i>
+                                    ></i>
                                     <UncontrolledTooltip target='#github-code-icon'>
                                         Source Code
                                     </UncontrolledTooltip>
@@ -94,6 +104,9 @@ const PortfolioSection = () => {
                         </div>
                     </div>
                     <div className='project-wrapper img-left'>
+                        <div>
+                            <h3 className='title-small-viewport'>Price Tracker</h3>
+                        </div>
                         <div className='project-image-container'>
                             <img
                                 className='img-fluid'
@@ -102,15 +115,19 @@ const PortfolioSection = () => {
                         </div>
                         <div className='project-description-container'>
                             <div>
-                                <h3 className='title'>Price Tracker</h3>
+                                <h3 className='project-title'>Price Tracker</h3>
                                 <h5 className="description">
-                                    Do you want to keep track of your favourite stocks?
-                                    Do you want to be update with the latest BTC price?
-                                    This web app is for you!
+                                    <p className='brief-intro'>
+                                        Do you want to keep track of your favourite stocks?
+                                        Do you want to be update with the latest BTC price?
+                                        This web app is for you!
+                                    </p>
                                     <br/>
-                                    Build with <b>Node.js</b>, <b>Express</b>, <b>Mongodb</b>, <b>React</b> and <b>Material UI</b>.
-                                    <br/>
-                                    Apis used: <b>Alpha Vantage</b>, <b>Crypto Compare</b> and <b>World Trading Data</b>
+                                    <p>
+                                        Build with <b>Node.js</b>, <b>Express</b>, <b>Mongodb</b>, <b>React</b> and <b>Material UI</b>.
+                                        <br/>
+                                        Apis used: <b>Alpha Vantage</b>, <b>Crypto Compare</b> and <b>World Trading Data</b>
+                                    </p>
                                 </h5>
                             </div>
                             <div className='links-container'>

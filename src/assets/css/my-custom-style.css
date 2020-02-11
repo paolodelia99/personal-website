@@ -7,6 +7,10 @@
     align-items: center;
 }
 
+.other-description-container{
+    margin-top: 30px;
+}
+
 .profile-img{
     width: 200px;
     height: auto;
@@ -14,6 +18,26 @@
 
 .about-me-title-container{
     margin-bottom: 20px;
+}
+
+.main-description-wrapper{
+    display: block;
+}
+
+.oval{
+    border-radius: 50%;
+    float: left;
+    shape-outside: circle();
+    padding: 10px;
+    margin: 10px;
+}
+
+#profile-img{
+    float: left;
+}
+
+#main-description{
+    margin-top: 20px;
 }
 
 /*SKILLS SECTION*/
@@ -30,6 +54,10 @@
 
 }
 
+.title-small-viewport{
+    display: none;
+}
+
 .skills-icon-container{
     margin: 10px 5px;
     width: 100%;
@@ -43,6 +71,12 @@
 .dev-icon-custom-style{
     font-size: 100px;
 }
+
+#redux-icon{
+    width: 100px;
+    height: 100px;
+}
+
 .tools-container{
     display: flex!important;
     flex-direction: row!important;
@@ -65,23 +99,21 @@
 }
 
 .projects-big-container{
-    /*Change opacity when onHover*/
+
 }
 
 .project-wrapper{
+    opacity: 0.6;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     margin: 45px 10px;
     padding: 5px;
+    transition: 0.5s;
 }
 
-.img-left{
-
-}
-
-.img-right{
-
+.project-wrapper:hover{
+    opacity: 1;
 }
 
 .project-image-container{
@@ -92,6 +124,10 @@
 .project-description-container{
     flex-grow: 1;
     margin: 0 10px;
+}
+
+.project-title{
+    font-weight: 700;
 }
 
 .links-container{
@@ -107,4 +143,157 @@
 
 .box-arrow-up-right-icon{
     margin-left: 5px;
+}
+
+/*MEDIA QUERIES*/
+@media screen and (min-width: 240px) and (max-width: 375px) {
+    /*ABOUT ME SECTION*/
+    .other-description-container{
+        display: none;
+    }
+
+    #main-description{
+        margin-top: 0;
+    }
+
+    /*SKILLS SECTION*/
+    .dev-icon-custom-style{
+        font-size: 35px;
+    }
+
+    #redux-icon{
+        width: 35px;
+        height: 35px;
+    }
+
+    /*PORTFOLIO SECTION*/
+    .project-wrapper{
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    #weather-app-description{
+        order: 2;
+    }
+
+    .title-small-viewport{
+        display: block;
+    }
+
+    .project-title{
+        display: none;
+    }
+
+    .brief-intro{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 568px) {
+    /*ABOUT ME SECTION*/
+    .other-description-container{
+        display: none;
+    }
+
+    #main-description{
+        margin-top: 0;
+    }
+
+    /*SKILLS SECTION*/
+    .dev-icon-custom-style{
+        font-size: 45px;
+    }
+
+    #redux-icon{
+        width: 45px;
+        height: 45px;
+    }
+
+    /*PORTFOLIO SECTION*/
+    .project-wrapper{
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    #weather-app-description{
+        order: 2;
+    }
+
+    .title-small-viewport{
+        display: block;
+    }
+
+    .project-title{
+        display: none;
+    }
+
+    .brief-intro{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 568px) and (max-width: 768px) {
+    /*ABOUT ME SECTION*/
+    .other-description-container{
+        display: none;
+    }
+
+    #main-description{
+        margin-top: 0;
+    }
+
+    /*SKILLS SECTION*/
+    .dev-icon-custom-style{
+        font-size: 55px;
+    }
+
+    #redux-icon{
+        width: 55px;
+        height: 55px;
+    }
+
+    /*PORTFOLIO SECTION*/
+    .project-wrapper{
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    #weather-app-description{
+        order: 2;
+    }
+
+    .title-small-viewport{
+        display: block;
+    }
+
+    .project-title{
+        display: none;
+    }
+
+    .brief-intro{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    /*SKILLS SECTION*/
+    .dev-icon-custom-style{
+        font-size: 65px;
+    }
+
+    #redux-icon{
+        width: 65px;
+        height: 65px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    /*ABOUT ME SECTION*/
+    #main-description{
+        margin-top: 40px;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+
 }

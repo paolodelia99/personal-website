@@ -6,6 +6,8 @@ import {
     Col,
     UncontrolledTooltip
 } from "reactstrap";
+import { Icon, InlineIcon } from '@iconify/react';
+import reduxIcon from '@iconify/icons-simple-icons/redux';
 
 const SkillsSection = () => {
     return (
@@ -45,10 +47,12 @@ const SkillsSection = () => {
                                             </UncontrolledTooltip>
                                         </div>
                                         <div>
-                                            <img
-                                                id='python-icon'
-                                                src={require('../../assets/img/python-icon.png')}
-                                            />
+                                            <span style={{color:'Dodgerblue'}}>
+                                                <i
+                                                    id='python-icon'
+                                                    className="fab fa-python dev-icon-custom-style"
+                                                ></i>
+                                            </span>
                                             <UncontrolledTooltip target='#python-icon'>
                                                 Python
                                             </UncontrolledTooltip>
@@ -87,15 +91,6 @@ const SkillsSection = () => {
                                                 Express
                                             </UncontrolledTooltip>
                                         </div>
-                                        <div>
-                                            <img
-                                                id='material-ui-icon'
-                                                src={require('../../assets/img/mateial-ui-logo.png')}
-                                            />
-                                            <UncontrolledTooltip target='#material-ui-icon'>
-                                                Material UI
-                                            </UncontrolledTooltip>
-                                        </div>
                                     </div>
                                 </div>
                                 <div className='skill-wrapper'>
@@ -104,10 +99,7 @@ const SkillsSection = () => {
                                     </div>
                                     <div className="skills-icon-container">
                                         <div>
-                                            <img
-                                                id='redux-icon'
-                                                src={require('../../assets/img/redux-logo.png')}
-                                            />
+                                            <Icon icon={reduxIcon} color="purple" id='redux-icon' />
                                             <UncontrolledTooltip target='#redux-icon'>
                                                 Redux
                                             </UncontrolledTooltip>
@@ -148,10 +140,12 @@ const SkillsSection = () => {
                                         </UncontrolledTooltip>
                                     </div>
                                     <div className='tool-item'>
-                                        <img
-                                            id='chrome-devtools-icon'
-                                            src={require('../../assets/img/chrome-dev-tools-icon.png')}
-                                        />
+                                        <span style={{color:'#FFD714'}}>
+                                            <i
+                                                id='chrome-devtools-icon'
+                                                className="fab fa-chrome dev-icon-custom-style"
+                                            ></i>
+                                        </span>
                                         <UncontrolledTooltip target='#chrome-devtools-icon'>
                                             Chrome DevTools
                                         </UncontrolledTooltip>
@@ -175,19 +169,23 @@ const SkillsSection = () => {
                                         </UncontrolledTooltip>
                                     </div>
                                     <div className='tool-item'>
-                                        <img
-                                            id='html-icon'
-                                            src={require('../../assets/img/HTML_Logo.png')}
-                                        />
+                                        <span style={{color: 'Tomato'}}>
+                                            <i
+                                                id='html-icon'
+                                                className="fab fa-html5 dev-icon-custom-style"
+                                            ></i>
+                                        </span>
                                         <UncontrolledTooltip target='#html-icon'>
                                             HTML
                                         </UncontrolledTooltip>
                                     </div>
                                     <div className='tool-item'>
-                                        <img
-                                            id='css-icon'
-                                            src={require('../../assets/img/css3-512.png')}
-                                        />
+                                        <span  style={{color: 'Dodgerblue'}}>
+                                            <i
+                                                id='css-icon'
+                                                className="fab fa-css3-alt dev-icon-custom-style"
+                                            ></i>
+                                        </span>
                                         <UncontrolledTooltip target='#css-icon'>
                                             Css
                                         </UncontrolledTooltip>

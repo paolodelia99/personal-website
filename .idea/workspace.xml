@@ -5,10 +5,11 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/css/my-custom-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/my-custom-style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/build-in-components/Footers/DarkFooter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/build-in-components/Footers/DarkFooter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/index-sections/Download.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/index-sections/ContactMeSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/now-ui-kit/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/now-ui-kit/_typography.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/build-in-components/Navbars/IndexNavbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/build-in-components/Navbars/IndexNavbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/index-sections/AboutMeSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/index-sections/AboutMeSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/index-sections/ContactMeSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/index-sections/ContactMeSection.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/index-sections/PortfolioSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/index-sections/PortfolioSection.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/index-sections/SkillsSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/index-sections/SkillsSection.js" afterDir="false" />
     </list>
@@ -106,7 +107,8 @@
       <workItem from="1581321893598" duration="562000" />
       <workItem from="1581322896944" duration="2292000" />
       <workItem from="1581325240317" duration="6344000" />
-      <workItem from="1581368620464" duration="5119000" />
+      <workItem from="1581368620464" duration="5504000" />
+      <workItem from="1581408294242" duration="11100000" />
     </task>
     <servers />
   </component>
@@ -114,11 +116,11 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="686" y="212" key="FileChooserDialogImpl" timestamp="1581330341549">
+    <state x="686" y="212" key="FileChooserDialogImpl" timestamp="1581413388654">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1581238743543" />
-    <state x="686" y="212" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1581330341549" />
+    <state x="686" y="212" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1581413388654" />
     <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1581322481404">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

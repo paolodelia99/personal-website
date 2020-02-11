@@ -16,22 +16,30 @@ function AboutMeSection() {
             </Col>
           </Row>
           <Container className='about-me-big-wrapper'>
-            <Row className="justify-content-md-center">
-              <Col className='text-center'>
+            <Row className="justify-content-md-center main-description-wrapper">
+              <div className='oval'>
                 <img
                     alt="..."
+                    id='profile-img'
                     className="rounded-circle profile-img"
                     src={require("../../assets/img/ProfilePhoto.jpg")}
                 />
-              </Col>
-              <Col>
-                <h5 className="description">
-                  Hey! My name is Paolo and I'm a self-taught web developer. I'm currently a first year Computer Science student at Unimib.
-                  I'm apsiring Machine learning Engineer.....(to be continued)
+              </div>
+                <h5 className="description" id='main-description'>
+                  Hey! My name is Paolo, I'm 20 years old and I'm a self-taught web developer. I'm currently a first year Computer Science student at Unimib.
+                  I am really passionate about the world of coding and everything related to computer science and tech.
                 </h5>
-              </Col>
             </Row>
           </Container>
+          <Row className="justify-content-md-center other-description-container">
+            <Col sm={12} md={10}>
+              <h5 className="description">
+                I'm also a really sporty guy, I'm going to the gym between 4 and 5 times a week.
+                <br/>
+                What's sport taught me is <b>dispcipline</b> and <b>determination</b>, that allows me to getting done faster the "boring stuff" and have time to dedicate the to things that I've love to do!
+              </h5>
+            </Col>
+          </Row>
         </Container>
       </div>
     </>

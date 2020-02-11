@@ -112,7 +112,7 @@ function IndexNavbar() {
                     onClick={e => {
                       e.preventDefault();
                       document
-                          .getElementById("download-section")
+                          .getElementById("portfolio-section")
                           .scrollIntoView();
                     }}
                 >
@@ -125,7 +125,7 @@ function IndexNavbar() {
                     onClick={e => {
                       e.preventDefault();
                       document
-                          .getElementById("download-section")
+                          .getElementById("contact-me-section")
                           .scrollIntoView();
                     }}
                 >
