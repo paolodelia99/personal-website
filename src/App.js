@@ -1,19 +1,15 @@
 import React from "react";
 
-// reactstrap components
-// import {
-// } from "reactstrap";
-
 // core components
-import IndexNavbar from "./components/build-in-components/Navbars/IndexNavbar.js";
-import IndexHeader from "./components/build-in-components/Headers/IndexHeader.js";
-import DarkFooter from "./components/build-in-components/Footers/DarkFooter.js";
+import MainNavbar from "./components/MainNavbar.js";
+import MainHeader from "./components/MainHeader.js";
+import DarkFooter from "./components/DarkFooter.js";
 
 // sections for this page
-import AboutMeSection from "./components/index-sections/AboutMeSection.js";
-import ContactMeSection from "./components/index-sections/ContactMeSection.js";
-import SkillsSection from "./components/index-sections/SkillsSection";
-import PortfolioSection from "./components/index-sections/PortfolioSection";
+import AboutMeSection from "./components/main-sections/AboutMeSection.js";
+import ContactMeSection from "./components/main-sections/ContactMeSection.js";
+import SkillsSection from "./components/main-sections/SkillsSection";
+import PortfolioSection from "./components/main-sections/PortfolioSection";
 
 function App() {
   React.useEffect(() => {
@@ -29,9 +25,9 @@ function App() {
   });
   return (
       <>
-        <IndexNavbar />
+        <MainNavbar />
         <div className="wrapper">
-          <IndexHeader />
+          <MainHeader />
           <div className="main">
             <AboutMeSection />
             <SkillsSection/>

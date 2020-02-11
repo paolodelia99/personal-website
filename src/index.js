@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
+import { HashRouter, Route, Switch, Redirect } from "react-router-dom";
 
 // styles for this kit
 import "./assets/css/bootstrap.min.css";
@@ -12,18 +12,15 @@ import "./assets/demo/demo.css";
 import "./assets/demo/nucleo-icons-page-styles.css";
 import "./assets/css/my-custom-style.css"
 
-ReactDOM.render(<BrowserRouter>
-    <Switch>
+ReactDOM.render(
+    <HashRouter>
         <Switch>
-            <Route path="/index" render={props => <App {...props} />} />
-            <Redirect to="/index" />
-            <Redirect from="/" to="/index" />
+            <Switch>
+                <Route path="/" render={props => <App {...props} />} />
+                <Redirect to="/" />
+            </Switch>
         </Switch>
-    </Switch>
-</BrowserRouter>,
+    </HashRouter>,
     document.getElementById('root'));
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();
