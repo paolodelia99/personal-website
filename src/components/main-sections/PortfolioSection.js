@@ -125,7 +125,7 @@ const PortfolioSection = () => {
                                         Source Code
                                     </UncontrolledTooltip>
                                 </a>
-                                <a href="#" id='box-arrow-up-right-icon'>
+                                <a href="https://paolodelia99.github.io/react-meteo-app/#/" id='box-arrow-up-right-icon'>
                                     <BsBoxArrowUpRight
                                         color='black'
                                         size='40px'
