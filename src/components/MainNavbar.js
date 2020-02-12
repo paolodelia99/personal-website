@@ -54,7 +54,6 @@ function MainNavbar() {
         <Container>
           <div className="navbar-translate">
             <NavbarBrand
-              href="https://demos.creative-tim.com/now-ui-kit-react/#/index?ref=nukr-index-navbar"
               target="_blank"
               id="navbar-brand"
             >
@@ -87,7 +86,7 @@ function MainNavbar() {
                     e.preventDefault();
                     document
                       .getElementById("about-me-section")
-                      .scrollIntoView();
+                      .scrollIntoView({behavior: 'smooth'});
                   }}
                 >
                   <p>About</p>
@@ -100,7 +99,7 @@ function MainNavbar() {
                       e.preventDefault();
                       document
                           .getElementById("skills-section")
-                          .scrollIntoView();
+                          .scrollIntoView({behavior: 'smooth'});
                     }}
                 >
                   <p>Skills</p>
@@ -113,7 +112,7 @@ function MainNavbar() {
                       e.preventDefault();
                       document
                           .getElementById("portfolio-section")
-                          .scrollIntoView();
+                          .scrollIntoView({behavior: 'smooth'});
                     }}
                 >
                   <p>Portfolio</p>
@@ -126,7 +125,7 @@ function MainNavbar() {
                       e.preventDefault();
                       document
                           .getElementById("contact-me-section")
-                          .scrollIntoView();
+                          .scrollIntoView({behavior: 'smooth'});
                     }}
                 >
                   <p>Contact</p>

@@ -3,174 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="29edf3d3-3754-41a0-9846-dd542ff48ce5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/HTML_Logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/Paypal-Logo-Transparent-PNG-1024x713.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/Paypal-Logo-Transparent-PNG-1024x713.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/Paypal-Logo-Transparent-PNG-300x209.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/apple-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/avatar.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/bg1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/bg11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/bg3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/bg4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/bg5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/bg6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/bg7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/bg8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/blurred-image-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/chrome-dev-tools-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/creative-tim-white-slim2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/css3-512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/default-avatar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/eva.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/AD.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/AE.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/AG.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/AM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/AR.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/AT.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/AU.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/BE.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/BF.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/BG.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/BO.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/BR.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/CA.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/CD.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/CG.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/CH.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/CL.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/CM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/CN.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/CO.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/CZ.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/DE.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/DJ.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/DK.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/DZ.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/EE.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/EG.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/ES.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/FI.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/FR.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/GA.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/GB.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/GM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/GT.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/HN.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/HT.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/HU.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/ID.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/IE.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/IL.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/IN.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/IQ.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/IR.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/IT.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/JM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/JO.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/JP.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/KG.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/KN.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/KP.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/KR.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/KW.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/KZ.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/LA.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/LB.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/LC.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/LS.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/LU.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/LV.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/MG.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/MK.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/ML.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/MM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/MT.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/MX.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/NA.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/NE.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/NG.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/NI.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/NL.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/NO.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/OM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/PA.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/PE.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/PG.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/PK.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/PL.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/PT.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/PY.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/QA.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/RO.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/RU.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/RW.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/SA.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/SE.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/SG.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/SL.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/SN.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/SO.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/SV.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/TD.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/TJ.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/TL.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/TR.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/TZ.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/UA.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/US.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/VE.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/VN.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/flags/YE.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/hero-image-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/hero-image-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/hero-image-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/invision-white-slim.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/julie.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/landing.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/login.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/logo-square.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/mateial-ui-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/now-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/nucleo-logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/paypal-logo-computer-icons-payment-system-paypal.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/paypal-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/profile.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/python-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/redux-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/ryan.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/build-in-components/Footers/DarkFooter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DarkFooter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/build-in-components/Footers/DefaultFooter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/build-in-components/Footers/TransparentFooter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/build-in-components/Headers/IndexHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainHeader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/build-in-components/Headers/LandingPageHeader.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/build-in-components/Headers/ProfilePageHeader.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/build-in-components/Navbars/ExamplesNavbar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/build-in-components/Navbars/IndexNavbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainNavbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/index-sections/AboutMeSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main-sections/AboutMeSection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/index-sections/BasicElements.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/index-sections/Carousel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/index-sections/CompleteExamples.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/index-sections/ContactMeSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main-sections/ContactMeSection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/index-sections/Examples.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/index-sections/Javascript.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/index-sections/Navbars.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/index-sections/Notifications.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/index-sections/NucleoIcons.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/index-sections/Pagination.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/index-sections/PortfolioSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main-sections/PortfolioSection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/index-sections/SignUp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/index-sections/SkillsSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main-sections/SkillsSection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/index-sections/Tabs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/index-sections/Typography.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/now-ui-kit.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/now-ui-kit.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/now-ui-kit/_nucleo-outline.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/now-ui-kit/_nucleo-outline.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MainNavbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainNavbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main-sections/PortfolioSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main-sections/PortfolioSection.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,7 +35,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../price-tracker" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GKeep-clone" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -272,7 +108,8 @@
       <workItem from="1581325240317" duration="6344000" />
       <workItem from="1581368620464" duration="5504000" />
       <workItem from="1581408294242" duration="11767000" />
-      <workItem from="1581424720716" duration="2981000" />
+      <workItem from="1581424720716" duration="3860000" />
+      <workItem from="1581494477068" duration="1760000" />
     </task>
     <servers />
   </component>
@@ -280,11 +117,15 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="686" y="212" key="FileChooserDialogImpl" timestamp="1581413388654">
+    <state x="695" y="311" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581428914040">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="695" y="311" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1581428914040" />
+    <state x="686" y="212" key="FileChooserDialogImpl" timestamp="1581494510408">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1581238743543" />
-    <state x="686" y="212" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1581413388654" />
+    <state x="686" y="212" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1581494510408" />
     <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1581322481404">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
