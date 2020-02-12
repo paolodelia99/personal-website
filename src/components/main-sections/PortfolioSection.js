@@ -1,8 +1,12 @@
-import React, {Fragment} from 'react';
-import {Col, Container, Row, UncontrolledTooltip} from "reactstrap";
+import React, {Fragment, useState} from 'react';
+import {Button, Col, Container, Modal, ModalBody, Row, UncontrolledTooltip} from "reactstrap";
 import {BsBoxArrowUpRight} from 'react-icons/bs'
 
 const PortfolioSection = () => {
+    const [modal1,setModal1] = useState(false);
+    const [modal2,setModal2] = useState(false);
+    const [modal3,setModal3] = useState(false);
+
     return (
         <Fragment>
             <div className="section" id="portfolio-section">
@@ -18,10 +22,46 @@ const PortfolioSection = () => {
                         </div>
                         <div className='project-image-container'>
                             <img
+                                onClick={()=> setModal1(true)}
                                 className='img-fluid'
                                 src={require('../../assets/img/google-keep-project.png')}
                             />
                         </div>
+                        <Modal isOpen={modal1} toggle={() => setModal1(false)}>
+                            <div className="modal-header justify-content-center">
+                                <button
+                                    className="close"
+                                    type="button"
+                                    onClick={() => setModal1(false)}
+                                >
+                                    <i className="now-ui-icons ui-1_simple-remove"></i>
+                                </button>
+                                <h4 className="title title-up">Modal title</h4>
+                            </div>
+                            <ModalBody>
+                                <p>
+                                    Far far away, behind the word mountains, far from the
+                                    countries Vokalia and Consonantia, there live the blind
+                                    texts. Separated they live in Bookmarksgrove right at the
+                                    coast of the Semantics, a large language ocean. A small
+                                    river named Duden flows by their place and supplies it with
+                                    the necessary regelialia. It is a paradisematic country, in
+                                    which roasted parts of sentences fly into your mouth.
+                                </p>
+                            </ModalBody>
+                            <div className="modal-footer">
+                                <Button color="default" type="button">
+                                    Nice Button
+                                </Button>
+                                <Button
+                                    color="danger"
+                                    type="button"
+                                    onClick={() => setModal1(false)}
+                                >
+                                    Close
+                                </Button>
+                            </div>
+                        </Modal>
                         <div className='project-description-container'>
                             <div>
                                 <h3 className='project-title'>Google Keep clone</h3>
@@ -98,9 +138,45 @@ const PortfolioSection = () => {
                         </div>
                         <div className='project-image-container'>
                             <img
+                                onClick={() => setModal2(true)}
                                 className='img-fluid'
                                 src={require('../../assets/img/weather-app.png')}
                             />
+                            <Modal isOpen={modal2} toggle={() => setModal2(false)}>
+                                <div className="modal-header justify-content-center">
+                                    <button
+                                        className="close"
+                                        type="button"
+                                        onClick={() => setModal2(false)}
+                                    >
+                                        <i className="now-ui-icons ui-1_simple-remove"></i>
+                                    </button>
+                                    <h4 className="title title-up">Modal title</h4>
+                                </div>
+                                <ModalBody>
+                                    <p>
+                                        Far far away, behind the word mountains, far from the
+                                        countries Vokalia and Consonantia, there live the blind
+                                        texts. Separated they live in Bookmarksgrove right at the
+                                        coast of the Semantics, a large language ocean. A small
+                                        river named Duden flows by their place and supplies it with
+                                        the necessary regelialia. It is a paradisematic country, in
+                                        which roasted parts of sentences fly into your mouth.
+                                    </p>
+                                </ModalBody>
+                                <div className="modal-footer">
+                                    <Button color="default" type="button">
+                                        Nice Button
+                                    </Button>
+                                    <Button
+                                        color="danger"
+                                        type="button"
+                                        onClick={() => setModal2(false)}
+                                    >
+                                        Close
+                                    </Button>
+                                </div>
+                            </Modal>
                         </div>
                     </div>
                     <div className='project-wrapper img-left'>
@@ -109,9 +185,45 @@ const PortfolioSection = () => {
                         </div>
                         <div className='project-image-container'>
                             <img
+                                onClick={() => setModal3(true)}
                                 className='img-fluid'
                                 src={require('../../assets/img/price-tracker-app.png')}
                             />
+                            <Modal isOpen={modal3} toggle={() => setModal3(false)}>
+                                <div className="modal-header justify-content-center">
+                                    <button
+                                        className="close"
+                                        type="button"
+                                        onClick={() => setModal3(false)}
+                                    >
+                                        <i className="now-ui-icons ui-1_simple-remove"></i>
+                                    </button>
+                                    <h4 className="title title-up">Modal title</h4>
+                                </div>
+                                <ModalBody>
+                                    <p>
+                                        Far far away, behind the word mountains, far from the
+                                        countries Vokalia and Consonantia, there live the blind
+                                        texts. Separated they live in Bookmarksgrove right at the
+                                        coast of the Semantics, a large language ocean. A small
+                                        river named Duden flows by their place and supplies it with
+                                        the necessary regelialia. It is a paradisematic country, in
+                                        which roasted parts of sentences fly into your mouth.
+                                    </p>
+                                </ModalBody>
+                                <div className="modal-footer">
+                                    <Button color="default" type="button">
+                                        Nice Button
+                                    </Button>
+                                    <Button
+                                        color="danger"
+                                        type="button"
+                                        onClick={() => setModal3(false)}
+                                    >
+                                        Close
+                                    </Button>
+                                </div>
+                            </Modal>
                         </div>
                         <div className='project-description-container'>
                             <div>
