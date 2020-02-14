@@ -252,7 +252,7 @@ const PortfolioSection = () => {
                                         Source Code
                                     </UncontrolledTooltip>
                                 </a>
-                                <a href="#" id='box-arrow-up-right-icon'>
+                                <a href="https://pacific-scrubland-73313.herokuapp.com/" id='box-arrow-up-right-icon'>
                                     <BsBoxArrowUpRight
                                         color='black'
                                         size='40px'
