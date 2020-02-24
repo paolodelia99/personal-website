@@ -25,7 +25,7 @@ function AboutMeSection() {
                     src={require("../../assets/img/ProfilePhoto.jpg")}
                 />
               </div>
-                <h5 className="description" id='main-description'>
+                <h5 className="description text-black" id='main-description'>
                   Hey! My name is Paolo, I'm 20 years old and I'm a self-taught web developer. I'm currently a first year Computer Science student at Unimib.
                   I am really passionate about the world of coding and everything related to computer science and tech.
                 </h5>
@@ -33,7 +33,7 @@ function AboutMeSection() {
           </Container>
           <Row className="justify-content-md-center other-description-container">
             <Col sm={12} md={10}>
-              <h5 className="description">
+              <h5 className="description text-black">
                 I'm also a really sporty guy, I'm going to the gym between 4 and 5 times a week.
                 <br/>
                 What's sport taught me is <b>discipline</b> and <b>determination</b>, that allows me to getting done faster the "boring stuff" and have time to dedicate the to things that I've love to do!
