@@ -57,6 +57,15 @@ const SkillsSection = () => {
                                                 Python
                                             </UncontrolledTooltip>
                                         </div>
+                                        <div>
+                                            <i
+                                                id="php-icon"
+                                                className="devicon-php-plain colored dev-icon-custom-style"
+                                            ></i>
+                                            <UncontrolledTooltip target="php-icon">
+                                                php
+                                            </UncontrolledTooltip>
+                                        </div>
                                     </div>
                                 </div>
                                 <div className='skill-wrapper'>
@@ -71,6 +80,15 @@ const SkillsSection = () => {
                                             ></i>
                                             <UncontrolledTooltip target='#react-icon'>
                                                 React
+                                            </UncontrolledTooltip>
+                                        </div>
+                                        <div>
+                                            <i
+                                                id="laravel-icon"
+                                                className="devicon-laravel-plain colored dev-icon-custom-style"
+                                            ></i>
+                                            <UncontrolledTooltip target="laravel-icon">
+                                                Laravel
                                             </UncontrolledTooltip>
                                         </div>
                                         <div>
@@ -140,14 +158,12 @@ const SkillsSection = () => {
                                         </UncontrolledTooltip>
                                     </div>
                                     <div className='tool-item'>
-                                        <span style={{color:'#FFD714'}}>
                                             <i
-                                                id='chrome-devtools-icon'
-                                                className="fab fa-chrome dev-icon-custom-style"
+                                                id='mysql-icon'
+                                                className="devicon-mysql-plain-wordmark colored dev-icon-custom-style"
                                             ></i>
-                                        </span>
-                                        <UncontrolledTooltip target='#chrome-devtools-icon'>
-                                            Chrome DevTools
+                                        <UncontrolledTooltip target='#mysql-icon'>
+                                            MySQL
                                         </UncontrolledTooltip>
                                     </div>
                                     <div className='tool-item'>
