@@ -20,7 +20,7 @@
     "react-scripts": "3.3.1",
     "reactstrap": "^8.4.1"
   },
-  "homepage": "https://paolodelia99.github.io/personal-website",
+  "homepage": "https://paolo-delia.engineer/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

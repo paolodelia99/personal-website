@@ -61,23 +61,25 @@ const PortfolioSection = () => {
                     </div>
                     <div className='project-wrapper'>
                         <div>
-                            <h3 className='title-small-viewport'>Weather App</h3>
+                            <h3 className='title-small-viewport'>Expense Tracker</h3>
                         </div>
                         <div className='project-description-container' id='weather-app-description'>
                             <div>
-                                <h3 className='project-title'>Weather App</h3>
+                                <h3 className='project-title'>Expense Tracker</h3>
                                 <h5 className="description">
                                     <p className='brief-intro'>
-                                        Are you wondering what the weather will be in the next few days?
-                                        Check it out with my react-meteo-app! Six-day weather forecast!
-                                        You can also save your favourite cities!
+                                        Are you looking for a app that tracks all your expenses?
+                                        That's the app for you! Expense Tracker is a simple and intuitive application
+                                        meant to keep track of your finances!
                                     </p>
                                     <br/>
-                                    Build with <b>React</b>, <b>Redux</b> and <b>Open Weather API</b> for getting the weather!
+                                    <p>
+                                        Build with <b>Node.js</b>, <b>Express</b>, <b>Mongodb</b> and <b>React</b>
+                                    </p>
                                 </h5>
                             </div>
                             <div className='links-container'>
-                                <a href="https://github.com/paolodelia99/react-meteo-app">
+                                <a href="https://github.com/paolodelia99/mern-expense-tracker">
                                     <i
                                         className="devicon-github-plain colored git-hub-link-icon"
                                         id='github-code-icon'
@@ -86,7 +88,7 @@ const PortfolioSection = () => {
                                         Source Code
                                     </UncontrolledTooltip>
                                 </a>
-                                <a href="https://paolodelia99.github.io/react-meteo-app/#/" id='box-arrow-up-right-icon'>
+                                <a href="https://paolown-expense-tracker.herokuapp.com/" id='box-arrow-up-right-icon'>
                                     <BsBoxArrowUpRight
                                         color='black'
                                         size='40px'
@@ -100,7 +102,7 @@ const PortfolioSection = () => {
                         <div className='project-image-container'>
                             <img
                                 className='img-fluid'
-                                src={require('../../assets/img/weather-app.png')}
+                                src={require('../../assets/img/expense_tracker.png')}
                             />
                         </div>
                     </div>

@@ -75,15 +75,6 @@ const SkillsSection = () => {
                                     <div className='skills-icon-container'>
                                         <div>
                                             <i
-                                                className="devicon-react-original colored dev-icon-custom-style"
-                                                id='react-icon'
-                                            ></i>
-                                            <UncontrolledTooltip target='#react-icon'>
-                                                React
-                                            </UncontrolledTooltip>
-                                        </div>
-                                        <div>
-                                            <i
                                                 id="laravel-icon"
                                                 className="devicon-laravel-plain colored dev-icon-custom-style"
                                             ></i>
@@ -116,6 +107,15 @@ const SkillsSection = () => {
                                         <h4>Libraries</h4>
                                     </div>
                                     <div className="skills-icon-container">
+                                        <div>
+                                            <i
+                                                className="devicon-react-original colored dev-icon-custom-style"
+                                                id='react-icon'
+                                            ></i>
+                                            <UncontrolledTooltip target='#react-icon'>
+                                                React
+                                            </UncontrolledTooltip>
+                                        </div>
                                         <div>
                                             <Icon icon={reduxIcon} color="purple" id='redux-icon' />
                                             <UncontrolledTooltip target='#redux-icon'>
