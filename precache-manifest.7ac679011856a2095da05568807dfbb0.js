@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8a6d5f71222bbdc8bc413be694f1dc03",
+    "revision": "051c84dbaf4f026637c753899565f244",
     "url": "/index.html"
   },
   {
-    "revision": "41742f64ea20b4873bb1",
+    "revision": "eb42db1412883cd9915f",
     "url": "/static/css/main.9df8ae5e.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.22e79386.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "41742f64ea20b4873bb1",
-    "url": "/static/js/main.97a3239d.chunk.js"
+    "revision": "eb42db1412883cd9915f",
+    "url": "/static/js/main.4b61f5b4.chunk.js"
   },
   {
     "revision": "5db6dfe7a8e2b4135dd2",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "81fc8e4c2e67e9bf66ae6ab1041644ce",
     "url": "/static/media/ProfilePhoto.81fc8e4c.jpg"
+  },
+  {
+    "revision": "a5adf743f19e6f43086c3732bf2927c9",
+    "url": "/static/media/expense_tracker.a5adf743.png"
   },
   {
     "revision": "9636a27c326ec99919ccb6d46024904d",
@@ -38,9 +42,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "212c169c4b159295636fe60f61be41e0",
     "url": "/static/media/price-tracker-app.212c169c.png"
-  },
-  {
-    "revision": "c4cde130489ffda0052a780b28377e15",
-    "url": "/static/media/weather-app.c4cde130.png"
   }
 ]);
