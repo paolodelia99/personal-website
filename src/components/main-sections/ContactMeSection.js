@@ -72,7 +72,7 @@ function ContactMeSection() {
               <Button
                 className="btn-neutral btn-icon btn-round"
                 color="github"
-                href="https://github.com/creativetimofficial/now-ui-kit-react?ref=creativetim"
+                href="https://github.com/paolodelia99"
                 id="tooltip331904895"
                 size="lg"
                 target="_blank"
@@ -85,15 +85,15 @@ function ContactMeSection() {
               <Button
                   className="btn-neutral btn-icon btn-round"
                   color="github"
-                  href="https://github.com/creativetimofficial/now-ui-kit-react?ref=creativetim"
-                  id="tooltip331904895"
+                  href="https://dev.to/paolodelia99"
+                  id="tooltip331904894"
                   size="lg"
                   target="_blank"
               >
                 <i className="fab fa-dev" title="paolodelia99's DEV Profile"></i>
               </Button>
-              <UncontrolledTooltip delay={0} target="tooltip331904895">
-                Check out my Github
+              <UncontrolledTooltip delay={0} target="tooltip331904894">
+                Check out my DEV.to Profile
               </UncontrolledTooltip>
             </Col>
           </Row>
