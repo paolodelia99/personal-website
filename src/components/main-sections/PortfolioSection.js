@@ -15,30 +15,36 @@ const PortfolioSection = () => {
                 <Container className="text-center projects-big-container">
                     <div className='project-wrapper img-left'>
                         <div>
-                            <h3 className='title-small-viewport'>Google Keep clone</h3>
+                            <h3 className='title-small-viewport'>PyPerceptron</h3>
                         </div>
                         <div className='project-image-container'>
                             <img
                                 className='img-fluid'
-                                src={require('../../assets/img/google-keep-project.png')}
+                                src={require('../../assets/img/pyPerceptron.png')}
                             />
                         </div>
                         <div className='project-description-container'>
                             <div>
-                                <h3 className='project-title'>Google Keep clone</h3>
+                                <h3 className='project-title'>PyPerceptron</h3>
                                 <h5 className="description">
                                     <p className='brief-intro'>
-                                        Since I'm an organized guy and junior software engineer,
-                                        I thought, why don't build an productivity app that I use a lot?
-                                        So I did it!
+                                        So currently, I'm learning
+                                        stuff about machine learning, and I found really interesting the
+                                        idea of the perceptron. So since i'm a coder, a good way to learning new
+                                        stuff is to implemented it!
+
+                                        That is just my implementation on the perceptron algorithm,
+                                        a very simple idea, but it represent the build block of
+                                        a neural net
                                     </p>
                                     <br/>
-                                    Here's a google keep clone ( at least it tries to replicate it),
-                                    build with <b>node.js</b>, <b>express</b>, <b>mongodb</b>, <b>React</b> and <b>redux</b>.
+                                    <p>
+                                        Build with <b>Python</b> and <b>Numpy</b>.
+                                    </p>
                                 </h5>
                             </div>
                             <div className='links-container'>
-                                <a href="https://github.com/paolodelia99/GKeep">
+                                <a href="https://github.com/paolodelia99/Python-Perceptron">
                                     <i
                                         className="devicon-github-plain colored git-hub-link-icon"
                                         id='github-code-icon'
@@ -47,7 +53,7 @@ const PortfolioSection = () => {
                                         Source Code
                                     </UncontrolledTooltip>
                                 </a>
-                                <a href="https://damp-fjord-04834.herokuapp.com/" id='box-arrow-up-right-icon'>
+                                <a href="https://pypi.org/project/PyPerceptron/" id='box-arrow-up-right-icon'>
                                     <BsBoxArrowUpRight
                                         color='black'
                                         size='40px'
@@ -108,33 +114,30 @@ const PortfolioSection = () => {
                     </div>
                     <div className='project-wrapper img-left'>
                         <div>
-                            <h3 className='title-small-viewport'>Price Tracker</h3>
+                            <h3 className='title-small-viewport'>Google Keep clone</h3>
                         </div>
                         <div className='project-image-container'>
                             <img
                                 className='img-fluid'
-                                src={require('../../assets/img/price-tracker-app.png')}
+                                src={require('../../assets/img/google-keep-project.png')}
                             />
                         </div>
                         <div className='project-description-container'>
                             <div>
-                                <h3 className='project-title'>Price Tracker</h3>
+                                <h3 className='project-title'>Google Keep clone</h3>
                                 <h5 className="description">
                                     <p className='brief-intro'>
-                                        Do you want to keep track of your favourite stocks?
-                                        Do you want to be update with the latest BTC price?
-                                        This web app is for you!
+                                        Since I'm an organized guy and junior software engineer,
+                                        I thought, why don't build an productivity app that I use a lot?
+                                        So I did it!
                                     </p>
                                     <br/>
-                                    <p>
-                                        Build with <b>Node.js</b>, <b>Express</b>, <b>Mongodb</b>, <b>React</b> and <b>Material UI</b>.
-                                        <br/>
-                                        Apis used: <b>Alpha Vantage</b>, <b>Crypto Compare</b> and <b>World Trading Data</b>
-                                    </p>
+                                    Here's a google keep clone ( at least it tries to replicate it),
+                                    build with <b>node.js</b>, <b>express</b>, <b>mongodb</b>, <b>React</b> and <b>redux</b>.
                                 </h5>
                             </div>
                             <div className='links-container'>
-                                <a href="https://github.com/paolodelia99/price-tracker-web-app">
+                                <a href="https://github.com/paolodelia99/GKeep">
                                     <i
                                         className="devicon-github-plain colored git-hub-link-icon"
                                         id='github-code-icon'
@@ -143,7 +146,7 @@ const PortfolioSection = () => {
                                         Source Code
                                     </UncontrolledTooltip>
                                 </a>
-                                <a href="https://pacific-scrubland-73313.herokuapp.com/" id='box-arrow-up-right-icon'>
+                                <a href="https://damp-fjord-04834.herokuapp.com/" id='box-arrow-up-right-icon'>
                                     <BsBoxArrowUpRight
                                         color='black'
                                         size='40px'
