@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bfa3b39927e16b1e1c118852583a9ccd",
+    "revision": "36eb9a890200fca079ae37d264f953de",
     "url": "/index.html"
   },
   {
-    "revision": "b3fb85753a10baf37d5c",
-    "url": "/static/css/main.9df8ae5e.chunk.css"
+    "revision": "9e6483c41c8d5aed8429",
+    "url": "/static/css/main.52ec4b91.chunk.css"
   },
   {
     "revision": "d6c878fd3d9592170d13",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.22e79386.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b3fb85753a10baf37d5c",
-    "url": "/static/js/main.b6279fe9.chunk.js"
+    "revision": "9e6483c41c8d5aed8429",
+    "url": "/static/js/main.bbe2d18b.chunk.js"
   },
   {
     "revision": "5db6dfe7a8e2b4135dd2",
@@ -40,7 +40,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/header.ffcc99c4.jpg"
   },
   {
-    "revision": "212c169c4b159295636fe60f61be41e0",
-    "url": "/static/media/price-tracker-app.212c169c.png"
+    "revision": "3d095b5a51527abb2e77f848bda54fb9",
+    "url": "/static/media/pyPerceptron.3d095b5a.png"
   }
 ]);

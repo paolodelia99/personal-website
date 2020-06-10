@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.9df8ae5e.chunk.css",
-    "main.js": "/static/js/main.b6279fe9.chunk.js",
-    "main.js.map": "/static/js/main.b6279fe9.chunk.js.map",
+    "main.css": "/static/css/main.52ec4b91.chunk.css",
+    "main.js": "/static/js/main.bbe2d18b.chunk.js",
+    "main.js.map": "/static/js/main.bbe2d18b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.aa739829.js",
     "runtime-main.js.map": "/static/js/runtime-main.aa739829.js.map",
     "static/js/2.22e79386.chunk.js": "/static/js/2.22e79386.chunk.js",
     "static/js/2.22e79386.chunk.js.map": "/static/js/2.22e79386.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.a53d6d0729f5ed52b89be62473050034.js": "/precache-manifest.a53d6d0729f5ed52b89be62473050034.js",
+    "precache-manifest.69bb69852b8e9f86d8234edfe4baad14.js": "/precache-manifest.69bb69852b8e9f86d8234edfe4baad14.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.9df8ae5e.chunk.css.map": "/static/css/main.9df8ae5e.chunk.css.map",
+    "static/css/main.52ec4b91.chunk.css.map": "/static/css/main.52ec4b91.chunk.css.map",
     "static/js/2.22e79386.chunk.js.LICENSE.txt": "/static/js/2.22e79386.chunk.js.LICENSE.txt",
     "static/media/ProfilePhoto.jpg": "/static/media/ProfilePhoto.81fc8e4c.jpg",
     "static/media/expense_tracker.png": "/static/media/expense_tracker.a5adf743.png",
     "static/media/google-keep-project.png": "/static/media/google-keep-project.9636a27c.png",
     "static/media/header.jpg": "/static/media/header.ffcc99c4.jpg",
-    "static/media/price-tracker-app.png": "/static/media/price-tracker-app.212c169c.png"
+    "static/media/pyPerceptron.png": "/static/media/pyPerceptron.3d095b5a.png"
   },
   "entrypoints": [
     "static/js/runtime-main.aa739829.js",
     "static/js/2.22e79386.chunk.js",
-    "static/css/main.9df8ae5e.chunk.css",
-    "static/js/main.b6279fe9.chunk.js"
+    "static/css/main.52ec4b91.chunk.css",
+    "static/js/main.bbe2d18b.chunk.js"
   ]
 }
