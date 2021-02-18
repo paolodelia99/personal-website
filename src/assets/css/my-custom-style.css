@@ -1,3 +1,9 @@
+/*HEADER*/
+
+.name-text {
+    font-weight: 600;
+}
+
 /*ABOUT ME SECTION*/
 .about-me-big-wrapper{
     display: flex;
@@ -124,6 +130,7 @@
 .project-description-container{
     flex-grow: 1;
     margin: 0 10px;
+    flex-basis: 50%;
 }
 
 .project-title{
@@ -135,6 +142,13 @@
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: flex-end;
+}
+
+.links-container-left{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
 }
 
 .git-hub-link-icon{
@@ -254,6 +268,7 @@
 
     /*PORTFOLIO SECTION*/
     .project-wrapper{
+        display: flex;
         flex-direction: column;
         justify-content: flex-start;
     }

@@ -4,23 +4,23 @@
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.4.0",
+    "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "devicon": "^2.2.0",
     "gh-pages": "^2.2.0",
-    "moment": "^2.24.0",
-    "node-sass": "^4.13.1",
-    "nouislider": "^14.1.1",
-    "react": "^16.12.0",
+    "moment": "^2.29.1",
+    "node-sass": "^4.14.1",
+    "nouislider": "^14.6.3",
+    "react": "^16.14.0",
     "react-bootstrap-switch": "^15.5.3",
     "react-datetime": "^2.16.3",
-    "react-dom": "^16.12.0",
-    "react-icons": "^3.9.0",
-    "react-router-dom": "^5.1.2",
+    "react-dom": "^16.14.0",
+    "react-icons": "^3.11.0",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "3.3.1",
-    "reactstrap": "^8.4.1"
+    "reactstrap": "^8.9.0"
   },
-  "homepage": "https://paolo-delia.engineer/",
+  "homepage": "https://paolodelia99.github.io/personal-website/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -44,7 +44,7 @@
     ]
   },
   "devDependencies": {
-    "@iconify/icons-simple-icons": "^1.0.22",
-    "@iconify/react": "^1.1.1"
+    "@iconify/icons-simple-icons": "^1.1.12",
+    "@iconify/react": "^1.1.4"
   }
 }

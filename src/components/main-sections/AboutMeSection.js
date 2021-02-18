@@ -26,8 +26,8 @@ function AboutMeSection() {
                 />
               </div>
                 <h5 className="description text-black" id='main-description'>
-                  Hey! My name is Paolo, I'm 21 years old and I'm a self-taught coder. I'm currently a first year Computer Science student at Unimib.
-                  I am really passionate about coding, math and everything related to computer science and tech.
+                  Hey! My name is Paolo, I'm 21 years old and I'm currently a second year Computer Science student at Unimib.
+                  I am really passionate about the world of coding, AI and everything related to computer science and tech.
                 </h5>
             </Row>
           </Container>

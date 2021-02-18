@@ -8,7 +8,6 @@ import DarkFooter from "./components/DarkFooter.js";
 // sections for this page
 import AboutMeSection from "./components/main-sections/AboutMeSection.js";
 import ContactMeSection from "./components/main-sections/ContactMeSection.js";
-import SkillsSection from "./components/main-sections/SkillsSection";
 import PortfolioSection from "./components/main-sections/PortfolioSection";
 
 function App() {
@@ -30,7 +29,6 @@ function App() {
           <MainHeader />
           <div className="main">
             <AboutMeSection />
-            <SkillsSection/>
             <PortfolioSection/>
             <ContactMeSection />
           </div>

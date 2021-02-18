@@ -24,18 +24,18 @@ function MainHeader() {
 
   return (
     <>
-      <div className="page-header clear-filter" filter-color="blue">
+      <div className="page-header clear-filter">
         <div
-          className="page-header-image"
-          style={{
-            backgroundImage: "url(" + require("../assets/img/header.jpg") + ")"
-          }}
-          ref={pageHeader}
-        ></div>
+    className="page-header-image"
+    style={{
+      backgroundImage: "url(" + require("../assets/img/code_background.jpeg") + ")"
+    }}
+    ref={pageHeader}
+    />
         <Container>
           <div className="content-center brand">
-            <h1 className="h1-seo">Hi, I'm Paolo D'Elia</h1>
-            <h3>Junior Software Engineer</h3>
+            <h1 className="h1-seo">Hello World!</h1>
+            <h3 className="name-text">I'm Paolo D'Elia</h3>
           </div>
         </Container>
       </div>

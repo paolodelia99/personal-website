@@ -98,24 +98,11 @@ function MainNavbar() {
                     onClick={e => {
                       e.preventDefault();
                       document
-                          .getElementById("skills-section")
-                          .scrollIntoView({behavior: 'smooth'});
-                    }}
-                >
-                  <p>Skills</p>
-                </NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink
-                    href="#pablo"
-                    onClick={e => {
-                      e.preventDefault();
-                      document
                           .getElementById("portfolio-section")
                           .scrollIntoView({behavior: 'smooth'});
                     }}
                 >
-                  <p>Portfolio</p>
+                  <p>Projects</p>
                 </NavLink>
               </NavItem>
               <NavItem>
@@ -129,6 +116,11 @@ function MainNavbar() {
                     }}
                 >
                   <p>Contact</p>
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="https://paolodelia99.github.io/blog/">
+                  <p>Blog</p>
                 </NavLink>
               </NavItem>
             </Nav>

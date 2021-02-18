@@ -1,6 +1,5 @@
 import React, {Fragment} from 'react';
 import { Col, Container, Row, UncontrolledTooltip} from "reactstrap";
-import {BsBoxArrowUpRight} from 'react-icons/bs'
 
 const PortfolioSection = () => {
 
@@ -9,152 +8,111 @@ const PortfolioSection = () => {
             <div className="section" id="portfolio-section">
                 <Row className='about-me-title-container'>
                     <Col>
-                        <h2 className="title">My Portfolio</h2>
+                        <h2 className="title">Projects</h2>
+                        <h4>Here's something that I've done in my free time</h4>
                     </Col>
                 </Row>
                 <Container className="text-center projects-big-container">
                     <div className='project-wrapper img-left'>
                         <div>
-                            <h3 className='title-small-viewport'>PyPerceptron</h3>
+                            <h3 className='title-small-viewport'>Py-Pacman</h3>
                         </div>
                         <div className='project-image-container'>
                             <img
                                 className='img-fluid'
-                                src={require('../../assets/img/pyPerceptron.png')}
+                                src={require('../../assets/img/pacman-example.gif')}
                             />
                         </div>
                         <div className='project-description-container'>
                             <div>
-                                <h3 className='project-title'>PyPerceptron</h3>
+                                <h3 className='project-title'>Py-Pacman</h3>
                                 <h5 className="description">
                                     <p className='brief-intro'>
-                                        So currently, I'm learning
-                                        stuff about machine learning, and I found really interesting the
-                                        idea of the perceptron. So since i'm a coder, a good way to learning new
-                                        stuff is to implemented it!
-
-                                        That is just my implementation on the perceptron algorithm,
-                                        a very simple idea, but it represent the build block of
-                                        a neural net
-                                    </p>
-                                    <br/>
-                                    <p>
-                                        Build with <b>Python</b> and <b>Numpy</b>.
+                                        In Py-Pacman I've implemented the game of Pacman with <b>Python</b> and <b>Pygame</b>,
+                                        and I've also provided it with a reinforcement learning environment,
+                                        so you can train Pacman using your favorite Reinforcement learning algorithm.
                                     </p>
                                 </h5>
                             </div>
                             <div className='links-container'>
-                                <a href="https://github.com/paolodelia99/Python-Perceptron">
+                                <a href="https://github.com/paolodelia99/py-pacman">
                                     <i
                                         className="devicon-github-plain colored git-hub-link-icon"
-                                        id='github-code-icon'
-                                    ></i>
+                                        id='github-code-icon'/>
                                     <UncontrolledTooltip target='#github-code-icon'>
                                         Source Code
                                     </UncontrolledTooltip>
                                 </a>
-                                <a href="https://pypi.org/project/PyPerceptron/" id='box-arrow-up-right-icon'>
-                                    <BsBoxArrowUpRight
-                                        color='black'
-                                        size='40px'
-                                    />
-                                </a>
-                                <UncontrolledTooltip target='#box-arrow-up-right-icon'>
-                                    Check it out!
-                                </UncontrolledTooltip>
                             </div>
                         </div>
                     </div>
                     <div className='project-wrapper'>
                         <div>
-                            <h3 className='title-small-viewport'>Expense Tracker</h3>
+                            <h3 className='title-small-viewport'>Mario Maker</h3>
                         </div>
                         <div className='project-description-container' id='weather-app-description'>
                             <div>
-                                <h3 className='project-title'>Expense Tracker</h3>
+                                <h3 className='project-title'>Mario Maker</h3>
                                 <h5 className="description">
                                     <p className='brief-intro'>
-                                        Are you looking for a app that tracks all your expenses?
-                                        That's the app for you! Expense Tracker is a simple and intuitive application
-                                        meant to keep track of your finances!
-                                    </p>
-                                    <br/>
-                                    <p>
-                                        Build with <b>Node.js</b>, <b>Express</b>, <b>Mongodb</b> and <b>React</b>
+                                        Since I've always been a Super Mario fan, I've always wanted to
+                                        rebuilt from scratch. And now I finnaly I've done it!
+                                        Here's my minimalist version of Mario Maker built with
+                                        <b>C++</b> and <b>Raylib</b>.
                                     </p>
                                 </h5>
                             </div>
-                            <div className='links-container'>
-                                <a href="https://github.com/paolodelia99/mern-expense-tracker">
+                            <div className='links-container-left'>
+                                <a href="https://github.com/paolodelia99/mario-maker">
                                     <i
                                         className="devicon-github-plain colored git-hub-link-icon"
                                         id='github-code-icon'
-                                    ></i>
+                                    />
                                     <UncontrolledTooltip target='#github-code-icon'>
                                         Source Code
                                     </UncontrolledTooltip>
                                 </a>
-                                <a href="https://paolown-expense-tracker.herokuapp.com/" id='box-arrow-up-right-icon'>
-                                    <BsBoxArrowUpRight
-                                        color='black'
-                                        size='40px'
-                                    />
-                                </a>
-                                <UncontrolledTooltip target='#box-arrow-up-right-icon'>
-                                    Check it out!
-                                </UncontrolledTooltip>
                             </div>
                         </div>
                         <div className='project-image-container'>
                             <img
                                 className='img-fluid'
-                                src={require('../../assets/img/expense_tracker.png')}
+                                src={require('../../assets/img/mario-maker-preview.gif')}
                             />
                         </div>
                     </div>
                     <div className='project-wrapper img-left'>
                         <div>
-                            <h3 className='title-small-viewport'>Google Keep clone</h3>
+                            <h3 className='title-small-viewport'>Computational Linear ALgebra</h3>
                         </div>
                         <div className='project-image-container'>
                             <img
                                 className='img-fluid'
-                                src={require('../../assets/img/google-keep-project.png')}
+                                src={require('../../assets/img/1200px-Linear_subspaces_with_shading.svg.png')}
                             />
                         </div>
                         <div className='project-description-container'>
                             <div>
-                                <h3 className='project-title'>Google Keep clone</h3>
+                                <h3 className='project-title'>Computational Linear ALgebra</h3>
                                 <h5 className="description">
                                     <p className='brief-intro'>
-                                        Since I'm an organized guy and junior software engineer,
-                                        I thought, why don't build an productivity app that I use a lot?
-                                        So I did it!
+                                        Computational Linear Algebra is a linear algebra library written
+                                        in <b>Javascript</b> just for fun! Code those math algorithm gave me a
+                                        better understanding of linear algebra.
                                     </p>
                                     <br/>
-                                    Here's a google keep clone ( at least it tries to replicate it),
-                                    build with <b>node.js</b>, <b>express</b>, <b>mongodb</b>, <b>React</b> and <b>redux</b>.
                                 </h5>
                             </div>
                             <div className='links-container'>
-                                <a href="https://github.com/paolodelia99/GKeep">
+                                <a href="https://github.com/paolodelia99/computational-linear-algebra-js">
                                     <i
                                         className="devicon-github-plain colored git-hub-link-icon"
                                         id='github-code-icon'
-                                    ></i>
+                                    />
                                     <UncontrolledTooltip target='#github-code-icon'>
                                         Source Code
                                     </UncontrolledTooltip>
                                 </a>
-                                <a href="https://damp-fjord-04834.herokuapp.com/" id='box-arrow-up-right-icon'>
-                                    <BsBoxArrowUpRight
-                                        color='black'
-                                        size='40px'
-                                    />
-                                </a>
-                                <UncontrolledTooltip target='#box-arrow-up-right-icon'>
-                                    Check it out!
-                                </UncontrolledTooltip>
                             </div>
                         </div>
                     </div>
