@@ -56,6 +56,7 @@ function MainNavbar() {
             <NavbarBrand
               target="_blank"
               id="navbar-brand"
+              className="custom-navbar"
             >
               Paolo D'Elia
             </NavbarBrand>
@@ -82,6 +83,7 @@ function MainNavbar() {
               <NavItem>
                 <NavLink
                   href="#pablo"
+                  className="custom-navbar"
                   onClick={e => {
                     e.preventDefault();
                     document
@@ -95,6 +97,7 @@ function MainNavbar() {
               <NavItem>
                 <NavLink
                     href="#pablo"
+                    className="custom-navbar"
                     onClick={e => {
                       e.preventDefault();
                       document
@@ -108,6 +111,7 @@ function MainNavbar() {
               <NavItem>
                 <NavLink
                     href="#pablo"
+                    className="custom-navbar"
                     onClick={e => {
                       e.preventDefault();
                       document
@@ -119,7 +123,7 @@ function MainNavbar() {
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://paolodelia99.github.io/blog/">
+                <NavLink href="https://paolodelia99.github.io/blog/" className="custom-navbar">
                   <p>Blog</p>
                 </NavLink>
               </NavItem>

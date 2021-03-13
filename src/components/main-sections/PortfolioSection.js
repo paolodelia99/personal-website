@@ -15,30 +15,35 @@ const PortfolioSection = () => {
                 <Container className="text-center projects-big-container">
                     <div className='project-wrapper img-left'>
                         <div>
-                            <h3 className='title-small-viewport'>Py-Pacman</h3>
+                            <h3 className='title-small-viewport'>MERN Boilerplate</h3>
                         </div>
                         <div className='project-image-container'>
                             <img
                                 className='img-fluid'
-                                src={require('../../assets/img/pacman-example.gif')}
+                                src={require('../../assets/img/mern.jfif')}
                             />
                         </div>
                         <div className='project-description-container'>
                             <div>
-                                <h3 className='project-title'>Py-Pacman</h3>
+                                <h3 className='project-title'>MERN Boilerplate</h3>
                                 <h5 className="description">
                                     <p className='brief-intro'>
-                                        In Py-Pacman I've implemented the game of Pacman with <b>Python</b> and <b>Pygame</b>,
-                                        and I've also provided it with a reinforcement learning environment,
-                                        so you can train Pacman using your favorite Reinforcement learning algorithm.
+                                        I made a simple MERN web app in <b>Javascript</b> that can be used
+                                        for kick starting you web application idea!
+                                        <br/>
+                                        With more than 70 stars and 20 forks on github.
+                                        <br/>
+                                        Check it out!
                                     </p>
+                                    <br/>
                                 </h5>
                             </div>
                             <div className='links-container'>
-                                <a href="https://github.com/paolodelia99/py-pacman">
+                                <a href="https://github.com/paolodelia99/MERN-Boilerplate">
                                     <i
                                         className="devicon-github-plain colored git-hub-link-icon"
-                                        id='github-code-icon'/>
+                                        id='github-code-icon'
+                                    />
                                     <UncontrolledTooltip target='#github-code-icon'>
                                         Source Code
                                     </UncontrolledTooltip>
@@ -83,32 +88,30 @@ const PortfolioSection = () => {
                     </div>
                     <div className='project-wrapper img-left'>
                         <div>
-                            <h3 className='title-small-viewport'>Computational Linear ALgebra</h3>
+                            <h3 className='title-small-viewport'>Py-Pacman</h3>
                         </div>
                         <div className='project-image-container'>
                             <img
                                 className='img-fluid'
-                                src={require('../../assets/img/1200px-Linear_subspaces_with_shading.svg.png')}
+                                src={require('../../assets/img/pacman-example.gif')}
                             />
                         </div>
                         <div className='project-description-container'>
                             <div>
-                                <h3 className='project-title'>Computational Linear ALgebra</h3>
+                                <h3 className='project-title'>Py-Pacman</h3>
                                 <h5 className="description">
                                     <p className='brief-intro'>
-                                        Computational Linear Algebra is a linear algebra library written
-                                        in <b>Javascript</b> just for fun! Code those math algorithm gave me a
-                                        better understanding of linear algebra.
+                                        In Py-Pacman I've implemented the game of Pacman with <b>Python</b> and <b>Pygame</b>,
+                                        and I've also provided it with a reinforcement learning environment,
+                                        so you can train Pacman using your favorite Reinforcement learning algorithm.
                                     </p>
-                                    <br/>
                                 </h5>
                             </div>
                             <div className='links-container'>
-                                <a href="https://github.com/paolodelia99/computational-linear-algebra-js">
+                                <a href="https://github.com/paolodelia99/py-pacman">
                                     <i
                                         className="devicon-github-plain colored git-hub-link-icon"
-                                        id='github-code-icon'
-                                    />
+                                        id='github-code-icon'/>
                                     <UncontrolledTooltip target='#github-code-icon'>
                                         Source Code
                                     </UncontrolledTooltip>

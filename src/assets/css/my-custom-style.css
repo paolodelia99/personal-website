@@ -1,5 +1,11 @@
 /*HEADER*/
 
+.custom-navbar {
+    font-weight: bold!important;
+    color: white!important;
+    opacity: 1!important;
+}
+
 .name-text {
     font-weight: 600;
 }
