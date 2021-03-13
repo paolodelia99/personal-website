@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "938676277d942c698d41fc0b7355744e",
+    "revision": "bac14c0d272907569bb9e40955d85fba",
     "url": "/personal-website/index.html"
   },
   {
-    "revision": "cc6c6ba36affb1b5b5f8",
-    "url": "/personal-website/static/css/main.dfe9c1f9.chunk.css"
+    "revision": "a266d4043369b87df44b",
+    "url": "/personal-website/static/css/main.451e8660.chunk.css"
   },
   {
     "revision": "f1319228514c537ed5e0",
@@ -16,16 +16,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/personal-website/static/js/2.24c11289.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cc6c6ba36affb1b5b5f8",
-    "url": "/personal-website/static/js/main.052da0bb.chunk.js"
+    "revision": "a266d4043369b87df44b",
+    "url": "/personal-website/static/js/main.fcf2982e.chunk.js"
   },
   {
     "revision": "1e06780838e4eefcf678",
     "url": "/personal-website/static/js/runtime-main.660c094e.js"
-  },
-  {
-    "revision": "3f20e7dc01cb03e4be0d156136f83b9d",
-    "url": "/personal-website/static/media/1200px-Linear_subspaces_with_shading.svg.3f20e7dc.png"
   },
   {
     "revision": "81fc8e4c2e67e9bf66ae6ab1041644ce",
@@ -38,6 +34,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b490cfbfd46ee900ebeff51e5357f943",
     "url": "/personal-website/static/media/mario-maker-preview.b490cfbf.gif"
+  },
+  {
+    "revision": "155b42c91749e8a3abe18b304edc0c78",
+    "url": "/personal-website/static/media/mern.155b42c9.jfif"
   },
   {
     "revision": "d7d558732b4cb396e6e9df3b8fdac2d4",
